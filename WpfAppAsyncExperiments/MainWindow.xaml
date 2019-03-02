@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfAppAsyncExperiments.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppAsyncExperiments"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Check responsiveness" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="179" Click="Button_Click"/>
+        <Button Content="Synchronous" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top" Width="179" Click="Button_Click_1"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="400" Margin="194,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="590"/>
+        <Button x:Name="CalculateAsync" Content="async await return" HorizontalAlignment="Left" Margin="10,57,0,0" VerticalAlignment="Top" Width="179" Click="Button_Click_2"/>
+        <Button Content="async await callback" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" Width="179" Click="Button_Click_3"/>
+        <Button Content="Clear" HorizontalAlignment="Left" Margin="10,129,0,0" VerticalAlignment="Top" Width="179" Click="Button_Click_4"/>
+        <Button Content="task callback" HorizontalAlignment="Left" Margin="10,105,0,0" VerticalAlignment="Top" Width="179" Click="Button_Click_5"/>
+
+    </Grid>
+</Window>

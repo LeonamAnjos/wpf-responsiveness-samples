@@ -1,0 +1,15 @@
+C:\repos\WpfAppAsyncExperiments\WpfAppAsyncExperiments\bin\Debug\WpfAppAsyncExperiments.exe.config
+C:\repos\WpfAppAsyncExperiments\WpfAppAsyncExperiments\bin\Debug\WpfAppAsyncExperiments.exe
+C:\repos\WpfAppAsyncExperiments\WpfAppAsyncExperiments\bin\Debug\WpfAppAsyncExperiments.pdb
+C:\repos\WpfAppAsyncExperiments\WpfAppAsyncExperiments\obj\Debug\WpfAppAsyncExperiments.csprojAssemblyReference.cache
+C:\repos\WpfAppAsyncExperiments\WpfAppAsyncExperiments\obj\Debug\MainWindow.g.cs
+C:\repos\WpfAppAsyncExperiments\WpfAppAsyncExperiments\obj\Debug\App.g.cs
+C:\repos\WpfAppAsyncExperiments\WpfAppAsyncExperiments\obj\Debug\WpfAppAsyncExperiments_MarkupCompile.cache
+C:\repos\WpfAppAsyncExperiments\WpfAppAsyncExperiments\obj\Debug\WpfAppAsyncExperiments_MarkupCompile.lref
+C:\repos\WpfAppAsyncExperiments\WpfAppAsyncExperiments\obj\Debug\MainWindow.baml
+C:\repos\WpfAppAsyncExperiments\WpfAppAsyncExperiments\obj\Debug\WpfAppAsyncExperiments.g.resources
+C:\repos\WpfAppAsyncExperiments\WpfAppAsyncExperiments\obj\Debug\WpfAppAsyncExperiments.Properties.Resources.resources
+C:\repos\WpfAppAsyncExperiments\WpfAppAsyncExperiments\obj\Debug\WpfAppAsyncExperiments.csproj.GenerateResource.cache
+C:\repos\WpfAppAsyncExperiments\WpfAppAsyncExperiments\obj\Debug\WpfAppAsyncExperiments.csproj.CoreCompileInputs.cache
+C:\repos\WpfAppAsyncExperiments\WpfAppAsyncExperiments\obj\Debug\WpfAppAsyncExperiments.exe
+C:\repos\WpfAppAsyncExperiments\WpfAppAsyncExperiments\obj\Debug\WpfAppAsyncExperiments.pdb
