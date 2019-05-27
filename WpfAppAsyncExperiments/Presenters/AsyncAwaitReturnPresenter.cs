@@ -10,8 +10,13 @@ namespace WpfAppAsyncExperiments.Presenters
 
         public async override void LongRunningCalc()
         {
-            var l = await Task.Run(() => BusinessRules.Calculate());
+            long l = await CalculateAsync();
             Print(l);
+        }
+
+        private static async Task<long> CalculateAsync()
+        {
+            return await Task.Run(() => BusinessRules.Calculate());
         }
 
         private void Print(long l) => View.Print(MessageFor("async await return", l));

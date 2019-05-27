@@ -49,7 +49,7 @@ namespace WpfAppAsyncExperiments
             textBox.Text += $"[{Thread.CurrentThread.ManagedThreadId}] {value + Environment.NewLine}";
         }
 
-        public void PrintSpecial(string value)
+        public void DispatchPrint(string value)
         {
             Dispatcher.Invoke(() => Print(value));
         }

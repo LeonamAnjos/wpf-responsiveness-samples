@@ -11,12 +11,12 @@ namespace WpfAppAsyncExperiments.Presenters
 
         public override void LongRunningCalc()
         {
-            LongRunningCalc(Print);
+            LongRunningCalcAsync(Print);
         }
 
         private void Print(long l) => View.Print(MessageFor("async await callback", l));
 
-        private async void LongRunningCalc(Action<long> callback)
+        private async Task LongRunningCalcAsync(Action<long> callback)
         {
             var l = await Task.Run(() => BusinessRules.Calculate());
             callback(l);

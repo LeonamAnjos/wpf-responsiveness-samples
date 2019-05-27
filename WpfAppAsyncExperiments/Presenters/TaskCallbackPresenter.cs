@@ -1,4 +1,5 @@
 ﻿using System.Threading.Tasks;
+using System.Windows.Threading;
 
 namespace WpfAppAsyncExperiments.Presenters
 {
@@ -8,11 +9,8 @@ namespace WpfAppAsyncExperiments.Presenters
         {
         }
 
-        public override void LongRunningCalc()
-        {
-            Task.Run(() => Print(BusinessRules.Calculate()));
-        }
+        public override void LongRunningCalc() => Task.Run(() => Print(BusinessRules.Calculate()));
 
-        private void Print(long l) => View.PrintSpecial(MessageFor("task callback", l));
+        private void Print(long l) => View.DispatchPrint(MessageFor("task callback", l));
     }
 }
