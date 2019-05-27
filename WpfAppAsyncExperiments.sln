@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28917.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppAsyncExperiments", "WpfAppAsyncExperiments\WpfAppAsyncExperiments.csproj", "{460BC1B4-CCA8-4F6B-8276-C6C4FD6C6295}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAsyncExperiments", "ConsoleAsyncExperiments\ConsoleAsyncExperiments.csproj", "{D31A1D6C-643F-4DD3-8DB1-166ECBDF3CA4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{460BC1B4-CCA8-4F6B-8276-C6C4FD6C6295}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{460BC1B4-CCA8-4F6B-8276-C6C4FD6C6295}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{460BC1B4-CCA8-4F6B-8276-C6C4FD6C6295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D31A1D6C-643F-4DD3-8DB1-166ECBDF3CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D31A1D6C-643F-4DD3-8DB1-166ECBDF3CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D31A1D6C-643F-4DD3-8DB1-166ECBDF3CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D31A1D6C-643F-4DD3-8DB1-166ECBDF3CA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
